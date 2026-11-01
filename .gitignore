@@ -1,0 +1,161 @@
+.vscode
+.idea
+build
+data
+sqlcipher-3.0.1
+dist
+venv
+venv_decrypt
+venv_main_pc
+TEST
+app/data/avatar
+app/data/image2
+app/data/emoji
+app/DataBase/Msg/*
+app/DataBase/decrypted/*
+app/DataBase/export/*
+*.db
+*.ui
+*.pyc
+*.log
+*.spec
+test*
+wordcloud.html
+
+# 微信 4.x 适配层产生的文件（含密钥/聊天记录，不要提交）
+wx4_keys.json
+wx4_key.json
+all_keys.json
+tools/decrypted/
+tools/media_test/
+info.json
+
+# 本地Python环境
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+
+# 微信聊天数据、密钥和导出文件
+gui_export/
+app/DataBase/
+wx4_keys.json
+wx4_key.json
+all_keys.json
+*keys*.json
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.dat
+
+# 私人配置和密钥
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# 开发备份和临时文件
+*.backup_*
+*.py.backup_*
+*.bak
+*.tmp
+*.log
+*.zip
+*.7z
+*.rar
+
+# 打包产物
+build/
+dist/
+*.spec
+
+# 本地Python环境
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+
+# 微信聊天数据、密钥和导出文件
+gui_export/
+app/DataBase/
+wx4_keys.json
+wx4_key.json
+all_keys.json
+*keys*.json
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.dat
+
+# 私人配置和密钥
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# 开发备份和临时文件
+*.backup_*
+*.py.backup_*
+*.bak
+*.tmp
+*.log
+*.zip
+*.7z
+*.rar
+
+# 打包产物
+build/
+dist/
+*.spec
+
+# 所有本地聊天记录导出和测试结果
+exe_export_test_*/
+voice_batch_export/
+gui_export/
+media_export/
+export_output/
+exports/
+output/
+test_output/
+*_export_test_*/
+
+# 常见聊天媒体文件
+*.silk
+*.mp3
+*.m4a
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.pdf
+
+# 本地账号数据
+app/DataBase/
+wx4_keys.json
+*keys*.json
+
+# 开发备份
+*.backup_*
+.gitignore.backup_*
+
+
+# 微信聊天报告及分析结果
+wechat_weekly_*/
+wechat_last_24hours/
+wechat_*/
+
+# 微信聊天测试数据及导出结果
+wechat_*/
+wechat_sessions.csv
+*.wxgf
+*.hevc
+
+voice_batch_cli_test/
